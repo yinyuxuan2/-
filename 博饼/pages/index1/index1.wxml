@@ -1,0 +1,54 @@
+<!--index.wxml-->
+<view class="content">
+<image class='background' src="/pages/index/back.png" mode="aspectFill"></image>
+</view>
+
+
+  <view class="header">
+  
+    <image src="{{userInfo.avatarUrl}}" class="userinfo" ></image>
+
+    <button class='btn0' bindtap="onShareAppMessage" open-type="share"><image src="/pages/index/待加入成员.png" class="userinfo"></image></button>
+    <button class='btn0'bindtap="onShareAppMessage" open-type="share"><image src="/pages/index/待加入成员.png" class="userinfo" ></image></button>
+    <button class='btn0'bindtap="onShareAppMessage" open-type="share"><image src="/pages/index/待加入成员.png" class="userinfo" ></image></button>
+    <button class='btn0'bindtap="onShareAppMessage" open-type="share"><image src="/pages/index/待加入成员.png" class="userinfo" ></image></button>
+    <button class='btn0'bindtap="onShareAppMessage" open-type="share"><image src="/pages/index/待加入成员.png" class="userinfo"  ></image></button>
+  </view>
+
+
+  <view class="modalDlg" wx:if="{{showModal}}">
+ 
+ <view class='close_mask' bindtap="close_mask">X</view>
+ <text class="user-motto">剩余奖品一览</text>
+ <text class="space">  </text>
+ <text class="user-motto">状元：{{zhuangyuan}}</text>
+ <text class="user-motto">对堂：{{duitang}}</text>
+ <text class="user-motto">三红：{{sanhong}}</text>
+ <text class="user-motto">四进：{{sijin}}</text>
+ <text class="user-motto">二举：{{erju}}</text>
+ <text class="user-motto">一秀：{{yixiu}}</text>
+</view>
+<button class='btn1' bindtap="submit">查看剩余奖品</button>
+<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+
+  <view class="usermotto">
+    <text class="user-motto">{{l}}</text>
+  </view>
+
+  <view class="imgbox1"  style='opacity: {{1-opacity}};'>
+    <image src="{{left1}}" ></image>
+    <image src="{{right1}}"></image>
+    <image src="{{mid1}}" ></image>
+  </view>
+  <view class="imgbox2"  style='opacity: {{1-opacity}};'>
+    <image src="{{left2}}" ></image>
+    <image src="{{right2}}"></image>
+    <image src="{{mid2}}"></image>
+  </view>
+
+  <view class="tool">
+    <button class="btn" bindtap="{{!isClicked?'clickMe':''}}"> 摇骰子</button>
+  </view>
+
+
+

@@ -1,0 +1,27 @@
+<!--pages/index1/index1.wxml-->
+
+<view class="content">
+<image class='background' src="/pages/index/back.png" mode="aspectFill"></image>
+</view>
+
+<view class="tool1">
+    <button > </button>
+  </view>
+
+<view class="tool0">
+    <button class='btn' bindtap="upPgage" > 多人模式</button>
+  </view>
+
+  <view class="tool">
+    <button class='btn' bindtap="upPgage1" > 单人博饼</button>
+  </view>
+
+  <view class="tool">
+    <button class='btn' bindtap="upPgage2" > 博饼起源 </button>
+  </view>
+
+  <view class="tool">
+    <button class='btn' bindtap="upPgage3" > 规则说明 </button>
+  </view>
+
+

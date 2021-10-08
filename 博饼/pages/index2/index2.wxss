@@ -1,0 +1,182 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #d4d4d4;
+}
+
+.imgbox1{
+  margin-top: -200px;
+  display:flex;
+  justify-content: center;
+}
+.imgbox1 image{
+  width:45px;
+  height:45px;
+ display:flex;
+  margin-left:25rpx;
+  margin-right:25rpx;
+}
+
+
+.imgbox2{ 
+  margin-top:30px;
+  display:flex;
+  justify-content: center;
+ 
+}
+.imgbox2 image{
+  width:45px;
+  height: 45px;
+  display:flex;
+  margin-left:25rpx;
+  margin-right:25rpx;
+}
+
+.btn {
+  width: 30%;
+  margin-top: 30rpx;
+  background-color: #ff3c00;
+  color: rgb(255, 224, 50);
+}
+.btn:after {
+  border: 0;
+}
+
+.btn1 {
+  
+  width: 30%;
+  margin-top: 30rpx;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+.btn1:after {
+  border: 0;
+}
+.usermotto {
+  margin-top: 150px;
+  text-align: center;
+  color: #e44800;
+  font-family:'楷体';
+  font-weight:900;
+  font-size:24px;
+  font-family: 'Courier New', Courier, monospace;
+}
+page{
+  height:100%;
+}
+.background {
+ opacity: 90%;
+  width: 100%;
+  height: 100%;
+  position: fixed; 
+  background-size:100% 100%;
+  z-index: -1;
+}
+
+.header {
+  border-bottom: 1px solid rgb(214, 214, 214);
+  text-align: center;
+  display:flex;
+  justify-content: center;
+  height: 130rpx;
+  margin: 0 auto;
+  margin-top: 15px;
+  line-height: 130rpx;
+
+} 
+.userinfo {
+  width: 50px;
+  height: 50px;
+  display:flex;
+  justify-content: center;
+  border-radius: 25px;
+ 
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #d4d4d4;
+}
+.tool{
+  margin-top:110px;
+}
+.tool1{
+  margin-top:20px;
+}
+.tool2{
+  margin-top:0px;
+}
+
+.wan{
+  display:flex;
+justify-content: center;
+}
+
+.wan image{
+margin-top:40px;
+height:260px;
+width:280px;
+}
+
+.modalDlg {
+  width: 580rpx;
+  height:900rpx;
+  position: fixed;
+  top: 50%;
+  left: 0;
+  z-index: 9999;
+  margin: -550rpx 85rpx;
+  background-color: transparent;
+  border-radius: 36rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ 
+.recharge_amount {
+  color: #aaa;
+  width: 450rpx;
+  height: 500rpx;
+  background: #f1f1f1;
+  text-align: center;
+  border-radius: 12rpx;
+  margin-top: 56rpx;
+  text-indent: 0;
+}
+ 
+ 
+.close_mask {
+  color: #000;
+  position: relative;
+  left: 40%;
+  /* top: -82%; */
+  font-size: 32rpx;
+}
+.tx{
+  margin-top:40px;
+  display:flex;
+  justify-content: center;
+}
+.tx1{
+  margin-top:90px;
+  display:flex;
+  justify-content: center;
+}

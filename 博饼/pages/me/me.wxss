@@ -1,0 +1,167 @@
+/* pages/me/me.wxss */
+.bg {
+  height: 150px;
+  background-color: #d53e37;
+}
+ 
+.head {
+  display: flex;
+  flex-direction: column;
+}
+ 
+.headIcon {
+  display: flex;
+  justify-content: center;
+}
+ 
+.login {
+  display: flex;
+  color: #fff;
+  font-size: 15px;
+  margin-top: 15rpx;
+  justify-content: center;
+}
+ 
+.button {
+  margin: 10px;
+  font-size: 14px;
+}
+ 
+.head image {
+  border-radius: 50%;
+}
+ 
+.hr {
+  width: 100%;
+  height: 15px;
+  background-color: #f4f5f6;
+}
+ 
+.item {
+  display: flex;
+  flex-direction: row;
+}
+ 
+.title {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  font-size: 15px;
+}
+ 
+.detail2 {
+  font-size: 15px;
+  position: absolute;
+  right: 10px;
+  height: 50px;
+  line-height: 50px;
+  color: #888;
+}
+ 
+.line {
+  border: 1px solid #ccc;
+  opacity: 0.2;
+}
+
+.tc {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 900;
+} 
+.inner {
+  background: #fff;
+  margin: 0rpx 30rpx 0 30rpx;
+  padding: 0 30rpx;
+  height: 630rpx;
+  border-radius: 10rpx;
+  position: relative;
+  top: 18%;
+  z-index: 1000;
+} 
+.header {
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  height: 150rpx;
+  margin: 0 auto;
+  line-height: 200rpx;
+
+} 
+
+.content {
+  margin-left: 50rpx;
+  margin-bottom: 70rpx;
+} 
+.content>view {
+  margin-top: 10rpx;
+} 
+.header text {
+  
+  color: #020202;
+  margin-top: 20rpx;
+} 
+.btn {
+  border-radius: 80rpx;
+  font-size: 35rpx;
+  padding: 25rpx 10rpx; 
+}
+.userinfo {
+  width: 50px;
+  height: 50px;
+ 
+  border-radius: 25px;
+ 
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #d4d4d4;
+}
+
+.imgbox{
+  
+  margin-top: 50px;
+ 
+}
+.imgbox image{
+  width:60px;
+  height: 60px;
+}
+.imgbox space{
+  width:20px;
+  height: 50px;
+}
+
+
+.tool {
+  margin-top: 50px;
+}
+
+
+.avaimg{
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  height: 50rpx;
+  margin: 0 auto;
+  line-height: 50rpx;
+}
+page{  
+  height: 100%; 
+  background: #ffffff;
+  }
+.zrf{
+  position:relative;
+  top:20rpx;
+  width: 92%;
+  height: 200rpx;
+  left: 4%;
+  display: inline-block;
+  box-shadow:0rpx 2rpx 5rpx 5rpx #c8c3c3;}

@@ -1,0 +1,17 @@
+<!--index.wxml-->
+
+
+
+<image class='background' src="/pages/index/back.png" mode="aspectFill"></image>
+<view class="space"></view>>
+<view class="title">博饼规则</view>
+
+<view class="gz">
+<image src='/pages/index4/gz.png' ></image>
+</view>
+
+
+
+  
+        
+
